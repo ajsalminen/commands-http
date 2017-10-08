@@ -1,0 +1,20 @@
+{
+  "name": "commands-http",
+  "version": "0.0.1",
+  "description": "Expose CLI programs over HTTP.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Antti J. Salminen",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "hapi-swagger": "^7.8.1",
+    "inert": "^4.2.1",
+    "vision": "^4.1.1"
+  }
+}
